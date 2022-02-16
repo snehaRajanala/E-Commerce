@@ -1,0 +1,18 @@
+.Nav-Short{
+    padding: 4%;
+    padding-top: 12px;
+}
+.filter{ 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+    .KidsStore{
+        font-weight: 478;
+        font-size: 15px;
+        padding-top: 11px;
+    }
+    .num-item{
+        color: grey;
+    }
+    
