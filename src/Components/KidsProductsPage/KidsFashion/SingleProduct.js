@@ -29,8 +29,8 @@ const SingleCard = ({ multi }) => {
           </Typography>
           <Typography
             sx={{
-              backgroundColor: "green",
-              color: "white",
+              backgroundColor: "white",
+              color: "black",
               fontSize: 18,
               m: 1,
               p: 1,
@@ -38,30 +38,8 @@ const SingleCard = ({ multi }) => {
           >
             <center>Buy Now</center>
           </Typography>
-          <Typography
-            sx={{
-              backgroundColor: "orange",
-              color: "white",
-              fontSize: 18,
-              m: 1,
-              mt: 0,
-              p: 1,
-            }}
-          >
-            <center>Add to Cart</center>
-          </Typography>
-          {/* <Typography variant="body2" color="text.secondary">
-            The best piece of wearing printed Kurti is that you don't require
-            additional extras with them. It will go well with printed Kurtis.
-          </Typography> */}
         </CardContent>
         <CardActions>
-          {/* <Button size="small" color="info">
-            Offer
-          </Button>
-          <Button size="small" color="info">
-            Know More
-          </Button> */}
         </CardActions>
       </div>
 

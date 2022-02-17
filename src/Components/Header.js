@@ -15,6 +15,7 @@ function Header() {
                 <input id="search" placeholder='Search' type="search" 
                 className='search-bar '
                 />
+                
                   
                 
             </div>

@@ -26,9 +26,6 @@ const MiniNavbar = () => {
           <Button variant="text" endIcon={<KeyboardArrowDownIcon />} sx={{mr: 4 }}>
             Store
           </Button>
-          {/* <Button variant="text" endIcon={<KeyboardArrowDownIcon />}>
-            Bundles
-          </Button> */}
         </div>
         <div>
             <Filter />

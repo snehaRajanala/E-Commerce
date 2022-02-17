@@ -1,6 +1,6 @@
 import React from "react";
 import "./Clothes.css";
-import ProductsObj from "./ProductsDetails";
+import ProductsDetails from "./ProductsDetails";
 import SingleProduct from "./SingleProduct";
 import Grid from "@mui/material/Grid";
 import { styled } from "@mui/material/styles";
@@ -17,7 +17,7 @@ const Clothes = () => {
   return (
     <div className="items">
       <Grid container spacing={4}>
-        {ProductsObj.map((obj) => {
+        {ProductsDetails.map((obj) => {
           return (
             <>
               <Grid item xs={3}>

@@ -4,22 +4,6 @@ import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 
 const sortings = [
-  // {
-  //   value: 'Value',
-  //   label: 'Short by : Recommended',
-  // },
-  // {
-  //   value: 'New',
-  //   label: 'Short by : Whats New ',
-  // },
-  // {
-  //   value: 'Popular',
-  //   label: 'Short by : Popularity',
-  // },
-  // {
-  //   value: 'Disscount',
-  //   label: 'Short by : Better Discount',
-  // },
   {
     value: 'Price high',
     label: 'Price : High To Low',
@@ -28,10 +12,6 @@ const sortings = [
     value: 'Price low',
     label: 'Price : Low To High',
   },
-  // {
-  //   value: 'Rating',
-  //   label: ' Customer Rating',
-  // },
 ];
 
 const Filter=()=> {
@@ -58,7 +38,6 @@ const Filter=()=> {
           value={sort}
           onChange={handleChange}
           variant="standard"
-          // color="primary"
 
         >
           {sortings.map((option) => (

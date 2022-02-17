@@ -18,7 +18,6 @@ const SingleProductPage3 = () => {
       <div>
         <Button
           variant="contained"
-          // color="success"
           startIcon={<ShoppingCartIcon />}
           sx={{ px: 10, py: 2, mr: 2 }}
         >
@@ -26,7 +25,6 @@ const SingleProductPage3 = () => {
         </Button>
         <Button
           variant="outlined"
-          // color="warning"
           startIcon={<FavoriteBorderIcon />}
           sx={{ px: 7, py: 2, mr: 2 }}
         >
